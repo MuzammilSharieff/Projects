@@ -150,7 +150,6 @@ bikesrides2 <- bike_rides_data2%>%
 summary(bikesrides2$Count)
 ```
 ![Summary of Hourly Count](https://github.com/MuzammilSharieff/Projects/assets/145916341/01fbdb11-99cb-4cb5-a7c3-0adcbf3fdab5)
-)
 
 #### Table of Counts by Hour
 
