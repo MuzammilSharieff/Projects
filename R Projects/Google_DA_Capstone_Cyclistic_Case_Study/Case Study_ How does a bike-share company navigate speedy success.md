@@ -149,7 +149,7 @@ bikesrides2 <- bike_rides_data2%>%
 
 summary(bikesrides2$Count)
 ```
-!(./screenshots/Summary of Hourly Count.jpg)
+![Summary of Hourly Count](./screenshots/Summary of Hourly Count.jpg)
 
 #### Table of Counts by Hour
 
