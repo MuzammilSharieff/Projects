@@ -159,6 +159,9 @@ summary(bikesrides2$Count)
 xtabs(bikesrides2$Count~bikesrides2$start_hour)
 ```
 
+![Table of count by hours](https://github.com/MuzammilSharieff/Projects/assets/145916341/5371e3d4-45d4-4770-8e4f-6603005d8567)
+
+
 #### From the above table We can observe that how many rides tool place in a span of 24 hours
 
 ## Step 4: Vizualization
@@ -179,6 +182,9 @@ bikesrides2 %>% ggplot() + geom_col(mapping = aes(x=Weekly, y=Count)) +
 
 ```
 
+![Count of Rides per Day Based on 28 days Moving Average](https://github.com/MuzammilSharieff/Projects/assets/145916341/b7cff6ff-1616-4de1-bf04-93ef7aba4166)
+
+
 **Speculation:**
 
 Number of rides made by both the casual riders and the annual members vary as per month. Such as, during winter riders of less likely to use a bike. On the other hand, although both casual and annual members ride counts are higher during summer, casual riders are more likely to use bikes (June, July, August) compared to annual members. Which is visualized in upcoming graph.
@@ -194,6 +200,9 @@ bikesrides2 %>% ggplot() + geom_col(mapping = aes(x=start_hour, y=Count)) +
        y="Rides per Hour")
 
 ```
+
+![Count of Rides by Hours](https://github.com/MuzammilSharieff/Projects/assets/145916341/57e0b208-86b6-43fa-a0cc-f2c48124e8e0)
+
 
 **Speculation:**
 
@@ -229,6 +238,9 @@ ggplot(bikestype) +
 
 ```
 
+![Count by Bike Types by Week](https://github.com/MuzammilSharieff/Projects/assets/145916341/c8d0db22-238f-41f6-8fc3-122205b4c7c0)
+
+
 ```{r}
 
 ggplot(bikestype) +
@@ -237,6 +249,7 @@ ggplot(bikestype) +
   labs(title = "Count of Rides by Rider Type")
 
 ```
+![Count of Rides by Rider Type](https://github.com/MuzammilSharieff/Projects/assets/145916341/6574d911-962d-41fa-b231-3d486b3f8ca9)
 
 **Speculation:**
 
@@ -258,6 +271,7 @@ bike_rides_data %>%
   scale_fill_manual(values = c("member" = "blue", "casual" = "orange"))
 
 ```
+![Top 20 Start Station by Ride Count](https://github.com/MuzammilSharieff/Projects/assets/145916341/792ab33b-e41e-4a52-a82e-e57eb6bf0d89)
 
 **Speculation:**
 
@@ -291,6 +305,8 @@ ggplot(data = df_bike_choice) +
     x = "Type of Bikes", y = "No. of Riders"
   )
 ```
+
+![Choice of Bikes](https://github.com/MuzammilSharieff/Projects/assets/145916341/dbf420ba-da30-4008-a878-89edf9639508)
 
 **Speculation**
 
